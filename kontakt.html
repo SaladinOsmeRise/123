@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontaktujte nás | GameZone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <span>Game</span>Zone
+      </a>
+      <nav id="navigace">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="obchod.html">Hry</a></li>
+          <li><a href="recenze.html">Recenze</a></li>
+          <li><a href="o-nas.html">O nás</a></li>
+          <li class="aktivni"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="layout-dvousloupcovy">
+      <div class="hlavni-obsah">
+        <section class="karta-sekce">
+          <h2>Napište nám</h2>
+          <p style="margin-bottom: 20px; color: var(--barva-textu-sekundarni);">Máte dotaz k objednávce, klíči nebo chcete navrhnout hru k recenzi? Vyplňte náš kontaktní formulář a my se vám co nejdříve ozveme zpět.</p>
+          
+          <form class="kontaktni-formular" id="formular-kontaktu" action="mailto:info@gamezone.cz" method="post" enctype="text/plain">
+            <div class="form-skupina">
+              <label for="jmeno">Jméno a příjmení *</label>
+              <input type="text" id="jmeno" name="jmeno" required placeholder="např. Jan Novák">
+            </div>
+
+            <div class="form-skupina">
+              <label for="email">E-mailová adresa *</label>
+              <input type="email" id="email" name="email" required placeholder="např. jan.novak@email.cz">
+            </div>
+
+            <div class="form-skupina">
+              <label for="platforma">Na čem nejraději hrajete?</label>
+              <select id="platforma" name="platforma">
+                <option value="PC">Počítač (PC)</option>
+                <option value="PlayStation 5">PlayStation 5</option>
+                <option value="Xbox Series">Xbox Series X/S</option>
+                <option value="Nintendo Switch">Nintendo Switch</option>
+                <option value="Mobilní telefon">Mobil / Tablet</option>
+              </select>
+            </div>
+
+            <div class="form-skupina form-skupina-checkbox">
+              <input type="checkbox" id="newsletter" name="newsletter">
+              <label for="newsletter">Chci odebírat herní novinky a slevové kódy</label>
+            </div>
+
+            <div class="form-skupina">
+              <label for="zprava">Vaše zpráva *</label>
+              <textarea id="zprava" name="zprava" required placeholder="Zde napište svůj dotaz nebo připomínku..."></textarea>
+            </div>
+
+            <button type="submit" class="tlacitko" style="align-self: flex-start;">Odeslat zprávu</button>
+          </form>
+
+        </section>
+      </div>
+
+      <aside class="bocni-panel">
+        <section class="karta-sekce" id="adresa">
+          <h3>Kontaktní informace</h3>
+          <p style="margin-top: 15px; margin-bottom: 20px;">
+            <strong>GameZone s.r.o.</strong><br>
+            IČO: 12345678<br>
+            DIČ: CZ12345678
+          </p>
+          <p style="margin-bottom: 20px;">
+            <strong>Adresa prodejny:</strong><br>
+            Smetanovo nábřeží 123<br>
+            110 00 Praha 1<br>
+            Česká republika
+          </p>
+          <p style="margin-bottom: 20px;">
+            <strong>E-mail:</strong><br>
+            <a href="mailto:info@gamezone.cz" style="color: var(--barva-hlavni);">info@gamezone.cz</a>
+          </p>
+          <p>
+            <strong>Telefon:</strong><br>
+            <a href="tel:+420123456789" style="color: var(--barva-hlavni);">+420 123 456 789</a>
+          </p>
+        </section>
+
+
+      </aside>
+    </div>
+  </main>
+
+  <a href="#" class="zpet-nahoru" aria-label="Zpět nahoru">&#8593;</a>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-sloupce">
+        <div class="footer-sloupec">
+          <h4>GameZone</h4>
+          <p style="color: var(--barva-textu-sekundarni); font-size: 0.9rem;">Váš spolehlivý partner pro nákup her a herního vybavení již od roku 2021.</p>
+        </div>
+        <div class="footer-sloupec">
+          <h4>Rychlé odkazy</h4>
+          <ul>
+            <li><a href="obchod.html">Katalog her</a></li>
+            <li><a href="recenze.html">Recenze her</a></li>
+            <li><a href="o-nas.html">Otevírací doba</a></li>
+            <li><a href="kontakt.html">Napište nám</a></li>
+          </ul>
+        </div>
+        <div class="footer-sloupec">
+          <h4>Užitečné info</h4>
+          <ul>
+            <li><a href="o-nas.html#historie">O naší firmě</a></li>
+            <li><a href="kontakt.html#adresa">Kde nás najdete</a></li>
+            <li><a href="https://www.pegi.info/" target="_blank" rel="noopener noreferrer">PEGI hodnocení (Externí)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-spodek">
+        <p>&copy; 2026 GameZone. Všechna práva vyhrazena. Vytvořeno v rámci školního projektu.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

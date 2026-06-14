@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameZone | Herní e-shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <span>Game</span>Zone
+      </a>
+      <nav id="navigace">
+        <ul>
+          <li class="aktivni"><a href="index.html">Domů</a></li>
+          <li><a href="obchod.html">Hry</a></li>
+          <li><a href="recenze.html">Recenze</a></li>
+          <li><a href="o-nas.html">O nás</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <img src="images/banner.png" alt="Herní pokoj" class="hero-img">
+      <div class="hero-obsah">
+        <h1>Vítejte v herním ráji GameZone</h1>
+        <p>Nejnovější tituly, exkluzivní slevy a herní komunita na jednom místě. Najdi svou další herní výzvu ještě dnes.</p>
+        <a href="obchod.html" class="tlacitko">Prohlédnout hry</a>
+      </div>
+    </div>
+
+    <div class="layout-dvousloupcovy">
+      <div class="hlavni-obsah">
+        <section class="karta-sekce">
+          <h2>Doporučené pecky <span>žhavé tipy</span></h2>
+          <div class="mrizka-her">
+            <article class="karta-hry">
+              <div class="karta-hry-img-kontejner">
+                <span class="stitok">Novinka</span>
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=400" alt="Cyberpunk RPG">
+              </div>
+              <div class="karta-hry-obsah">
+                <h3>Cyber Storm 2088</h3>
+                <p>Ponořte se do temného neonového světa plného technologických vylepšení, intrik a nebezpečných misí v tomto akčním RPG.</p>
+                <div class="karta-hry-footer">
+                  <span class="cena">1 499 Kč</span>
+                  <a href="obchod.html" class="tlacitko">Koupit</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="karta-hry">
+              <div class="karta-hry-img-kontejner">
+                <span class="stitok stitok-sleva">-40%</span>
+                <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=400" alt="Fantasy hra">
+              </div>
+              <div class="karta-hry-obsah">
+                <h3>Dragon's Legacy</h3>
+                <p>Prozkoumejte obrovský otevřený fantasy svět plný bájných tvorů, magie a zapomenutých pokladů starověkých civilizací.</p>
+                <div class="karta-hry-footer">
+                  <div>
+                    <span class="cena-puvodni">1 199 Kč</span>
+                    <span class="cena">719 Kč</span>
+                  </div>
+                  <a href="obchod.html" class="tlacitko">Koupit</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="karta-hry">
+              <div class="karta-hry-img-kontejner">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=400" alt="Závodní simulátor">
+              </div>
+              <div class="karta-hry-obsah">
+                <h3>Speed Limit: Horizon</h3>
+                <p>Realistický závodní simulátor s desítkami licencovaných aut a tratí po celém světě. Zažijte adrenalin v plné rychlosti.</p>
+                <div class="karta-hry-footer">
+                  <span class="cena">899 Kč</span>
+                  <a href="obchod.html" class="tlacitko">Koupit</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+
+      <aside class="bocni-panel">
+        <section class="karta-sekce">
+          <h3>Top 5 nejprodávanějších</h3>
+          <ol style="margin-left: 20px; margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+            <li><strong>Cyber Storm 2088</strong> (PC, PS5)</li>
+            <li><strong>Dragon's Legacy</strong> (PS5, Xbox)</li>
+            <li><strong>Speed Limit: Horizon</strong> (PC)</li>
+            <li><strong>Shadow Hunter</strong> (Xbox, PS5)</li>
+            <li><strong>Medieval Lords II</strong> (PC)</li>
+          </ol>
+        </section>
+
+        <section class="karta-sekce">
+          <h3>Proč nakupovat u nás?</h3>
+          <ul style="margin-left: 20px; margin-top: 15px; display: flex; flex-direction: column; gap: 10px; list-style-type: square;">
+            <li>Okamžité doručení digitálních klíčů.</li>
+            <li>Bezpečné platby kartou i převodem.</li>
+            <li>Věrnostní body za každý nákup.</li>
+            <li>Zákaznická podpora 24/7.</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <a href="#" class="zpet-nahoru" aria-label="Zpět nahoru">&#8593;</a>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-sloupce">
+        <div class="footer-sloupec">
+          <h4>GameZone</h4>
+          <p style="color: var(--barva-textu-sekundarni); font-size: 0.9rem;">Váš spolehlivý partner pro nákup her a herního vybavení již od roku 2021.</p>
+        </div>
+        <div class="footer-sloupec">
+          <h4>Rychlé odkazy</h4>
+          <ul>
+            <li><a href="obchod.html">Katalog her</a></li>
+            <li><a href="recenze.html">Recenze her</a></li>
+            <li><a href="o-nas.html">Otevírací doba</a></li>
+            <li><a href="kontakt.html">Napište nám</a></li>
+          </ul>
+        </div>
+        <div class="footer-sloupec">
+          <h4>Užitečné info</h4>
+          <ul>
+            <li><a href="o-nas.html#historie">O naší firmě</a></li>
+            <li><a href="kontakt.html#adresa">Kde nás najdete</a></li>
+            <li><a href="https://www.pegi.info/" target="_blank" rel="noopener noreferrer">PEGI hodnocení (Externí)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-spodek">
+        <p>&copy; 2026 GameZone. Všechna práva vyhrazena. Vytvořeno v rámci školního projektu.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

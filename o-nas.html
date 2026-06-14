@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O nás | GameZone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <span>Game</span>Zone
+      </a>
+      <nav id="navigace">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="obchod.html">Hry</a></li>
+          <li><a href="recenze.html">Recenze</a></li>
+          <li class="aktivni"><a href="o-nas.html">O nás</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="layout-dvousloupcovy">
+      <div class="hlavni-obsah">
+        <section class="karta-sekce">
+          <h2>O našem projektu</h2>
+          <div style="margin-top: 15px; display: flex; gap: 15px; flex-wrap: wrap;">
+            <a href="#historie" class="tlacitko tlacitko-sekundarni" style="padding: 8px 16px; font-size: 0.9rem;">Naše historie</a>
+            <a href="#tym" class="tlacitko tlacitko-sekundarni" style="padding: 8px 16px; font-size: 0.9rem;">Náš tým</a>
+            <a href="#oteviraci-doba" class="tlacitko tlacitko-sekundarni" style="padding: 8px 16px; font-size: 0.9rem;">Otevírací doba</a>
+          </div>
+        </section>
+
+        <section class="karta-sekce" id="historie">
+          <h2>Naše historie</h2>
+          <p style="margin-bottom: 15px;">Herní obchod GameZone vznikl v roce 2021 jako malý projekt dvou herních nadšenců. Naším cílem bylo vytvořit místo, kde si hráči mohou nejen koupit své oblíbené hry, ale také si přečíst poctivé recenze a dozvědět se o novinkách ze světa technologií.</p>
+          <p>Postupně jsme se rozrostli o kamennou pobočku v Praze, kde si můžete vyzvednout fyzické kopie her, vyzkoušet si špičkovou herní konzoli nebo si prostě popovídat s dalšími fanoušky. V současnosti obsluhujeme tisíce spokojených zákazníků po celé České republice.</p>
+        </section>
+
+        <section class="karta-sekce" id="tym">
+          <h2>Náš tým</h2>
+          <p style="margin-bottom: 20px;">Jsme parta lidí, kteří hraním her tráví většinu svého volného času. Díky tomu vám dokážeme poradit s výběrem té nejlepší hry přímo pro vás.</p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+            <div style="background-color: var(--barva-pozadi); padding: 15px; border-radius: 8px; text-align: center;">
+              <h4 style="color: var(--barva-hlavni); margin-bottom: 5px;">Petr Flídr</h4>
+              <p style="font-size: 0.85rem; color: var(--barva-textu-sekundarni);">Zakladatel & IT Specialista</p>
+            </div>
+            <div style="background-color: var(--barva-pozadi); padding: 15px; border-radius: 8px; text-align: center;">
+              <h4 style="color: var(--barva-hlavni); margin-bottom: 5px;">Martin Hráč</h4>
+              <p style="font-size: 0.85rem; color: var(--barva-textu-sekundarni);">Šéfredaktor recenzí</p>
+            </div>
+            <div style="background-color: var(--barva-pozadi); padding: 15px; border-radius: 8px; text-align: center;">
+              <h4 style="color: var(--barva-hlavni); margin-bottom: 5px;">Lucie Rychlá</h4>
+              <p style="font-size: 0.85rem; color: var(--barva-textu-sekundarni);">Zákaznická podpora</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="karta-sekce" id="oteviraci-doba">
+          <h2>Otevírací doba pobočky</h2>
+          <p style="margin-bottom: 15px;">Pokud dáváte přednost osobnímu odběru nebo si chcete prohlédnout herní merch, navštivte nás v naší prodejně v Praze.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Den</th>
+                <th>Otevírací doba</th>
+                <th>Poznámka</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pondělí</td>
+                <td>9:00 - 18:00</td>
+                <td>Běžný provoz</td>
+              </tr>
+              <tr>
+                <td>Úterý</td>
+                <td>9:00 - 18:00</td>
+                <td>Běžný provoz</td>
+              </tr>
+              <tr>
+                <td>Středa</td>
+                <td>9:00 - 19:00</td>
+                <td>Prodloužená otevírací doba</td>
+              </tr>
+              <tr>
+                <td>Čtvrtek</td>
+                <td>9:00 - 18:00</td>
+                <td>Běžný provoz</td>
+              </tr>
+              <tr>
+                <td>Pátek</td>
+                <td>9:00 - 18:00</td>
+                <td>Běžný provoz</td>
+              </tr>
+              <tr>
+                <td>Sobota</td>
+                <td>10:00 - 14:00</td>
+                <td>Pouze výdej objednávek</td>
+              </tr>
+              <tr>
+                <td>Neděle</td>
+                <td>Zavřeno</td>
+                <td>Sanitární den</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+      <aside class="bocni-panel">
+        <section class="karta-sekce">
+          <h3>Statistiky</h3>
+          <ul style="margin-left: 20px; display: flex; flex-direction: column; gap: 12px; margin-top: 15px;">
+            <li><strong>5000+</strong> Aktivních zákazníků</li>
+            <li><strong>200+</strong> Her v nabídce</li>
+            <li><strong>150+</strong> Napsaných recenzí</li>
+            <li><strong>100%</strong> Doručených klíčů</li>
+          </ul>
+        </section>
+
+        <section class="karta-sekce">
+          <h3>Kde nás najdete?</h3>
+          <p style="font-size: 0.9rem; color: var(--barva-textu-sekundarni); margin-bottom: 15px;">Adresa prodejny:<br>Smetanovo nábřeží 123<br>110 00 Praha 1</p>
+          <a href="kontakt.html#adresa" class="tlacitko" style="width: 100%; text-align: center;">Zobrazit na mapě</a>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <a href="#" class="zpet-nahoru" aria-label="Zpět nahoru">&#8593;</a>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-sloupce">
+        <div class="footer-sloupec">
+          <h4>GameZone</h4>
+          <p style="color: var(--barva-textu-sekundarni); font-size: 0.9rem;">Váš spolehlivý partner pro nákup her a herního vybavení již od roku 2021.</p>
+        </div>
+        <div class="footer-sloupec">
+          <h4>Rychlé odkazy</h4>
+          <ul>
+            <li><a href="obchod.html">Katalog her</a></li>
+            <li><a href="recenze.html">Recenze her</a></li>
+            <li><a href="o-nas.html">Otevírací doba</a></li>
+            <li><a href="kontakt.html">Napište nám</a></li>
+          </ul>
+        </div>
+        <div class="footer-sloupec">
+          <h4>Užitečné info</h4>
+          <ul>
+            <li><a href="o-nas.html#historie">O naší firmě</a></li>
+            <li><a href="kontakt.html#adresa">Kde nás najdete</a></li>
+            <li><a href="https://www.pegi.info/" target="_blank" rel="noopener noreferrer">PEGI hodnocení (Externí)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-spodek">
+        <p>&copy; 2026 GameZone. Všechna práva vyhrazena. Vytvořeno v rámci školního projektu.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
